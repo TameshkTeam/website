@@ -195,3 +195,9 @@ nav > ul {
      margin: 15px 20px 0px 0px;
    }
 }
+
+@media screen and (max-width: 900px) and (min-width: 850px) {
+  .members {
+    width: 90%;
+  } 
+}
