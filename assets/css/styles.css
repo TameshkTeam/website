@@ -132,6 +132,7 @@ nav > ul {
   border-radius: 7px;
   padding: 10px;
   transition: .5s;
+  margin-right: 10px;
 }
 
 .card:hover {
