@@ -184,7 +184,7 @@ nav > ul {
 }
 
 /* Responesiv code */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 780px) {
    .members {
      display: block;
      margin-top: -10px;
