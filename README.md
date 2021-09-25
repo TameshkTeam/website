@@ -1,1 +1,1 @@
-🔰 `SITE IS IN PROGRESS`
+<samp> 🎯 Finished Version 1 </samp><hr>
