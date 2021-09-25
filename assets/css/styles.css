@@ -79,6 +79,7 @@ nav > ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 80px;
 }
 
 .nav-items {
@@ -104,6 +105,14 @@ nav > ul {
   height: 75px;
 }
 
+.slogan {
+  color: #1d8ddb;
+}
+
+.slogan > span {
+  color: #bd3787;
+}
+
 /* Member card */
 .members {
   width: 85%;
@@ -113,6 +122,7 @@ nav > ul {
   align-items: center;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .card {
@@ -121,7 +131,6 @@ nav > ul {
   width: 25%;
   border-radius: 7px;
   padding: 10px;
-  margin-right: 20px;
   transition: .5s;
 }
 
@@ -178,9 +187,10 @@ nav > ul {
 @media screen and (max-width: 900px) {
    .members {
      display: block;
+     margin-top: -10px;
    }
    .card {
      width: 100%;
-     margin: 10px 20px 0px 0px;
+     margin: 15px 20px 0px 0px;
    }
 }
