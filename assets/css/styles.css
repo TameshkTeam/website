@@ -16,6 +16,8 @@
 body {
   margin: 0;
   font-family: bg;
+  overflow-x: hidden;
+  margin-bottom: 70px;
 }
 
 a {
@@ -91,7 +93,7 @@ nav > ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .nav-items {
@@ -172,12 +174,13 @@ nav > ul {
   font-family: bg-light;
 }
 
+/* Footer */
 .footer {
   position: fixed;
   text-align: center;
   background-color: #2c3157;
   color: white;
-  padding: 10px;
+  padding: 2px;
   bottom: 0;
   width: 100%;
 }
@@ -199,7 +202,7 @@ nav > ul {
 }
 
 /* Dark button */
-.dark {
+.dark, .github, .fa {
   position: fixed;
   background-color: black;
   border-radius: 50%;
@@ -208,17 +211,42 @@ nav > ul {
   height: 50px;
   padding: 12px;
   left: 30px;
-  bottom: 100px;
+  bottom: 80px;
   cursor: pointer;
   transition: 0.5s;
   outline: none;
+  box-shadow: gray 1px 2px 10px;
 }
 
-.dark:hover {
+.dark:hover, .github:hover, .fa:hover {
   opacity: 0.8;
 }
 
 .dark > img {
+  width: 25px;
+  height: 25px;
+}
+
+.github {
+  bottom: 140px;
+}
+
+.github > img {
+  width: 25px;
+  height: 25px;
+}
+
+.fa {
+  bottom: 205px;
+  background: linear-gradient(
+    to bottom,
+    rgb(25, 255, 25),
+    rgb(235, 235, 235),
+    rgb(255, 13, 13)
+  );
+}
+
+.fa > img {
   width: 25px;
   height: 25px;
 }
