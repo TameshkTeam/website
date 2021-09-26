@@ -107,10 +107,12 @@ nav > ul {
 
 .slogan {
   color: #1d8ddb;
+  text-shadow: #1d8ddb 2px 5px 15px;
 }
 
 .slogan > span {
   color: #bd3787;
+  text-shadow: #bd3787 2px 5px 15px;
 }
 
 /* Member card */
