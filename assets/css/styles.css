@@ -185,7 +185,7 @@ nav > ul {
 }
 
 /* Responesiv code */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 1024px) {
    .members {
      display: block;
      margin-top: -10px;
@@ -196,8 +196,13 @@ nav > ul {
    }
 }
 
-@media screen and (max-width: 900px) and (min-width: 850px) {
+/* @media screen and (max-width: 900px) and (min-width: 850px) {
   .members {
     width: 90%;
   } 
-}
+} */
+
+/* Small laptop */
+/* @media screen and (max-width: 1024px) and (min-width: 900px) {
+  
+} */
