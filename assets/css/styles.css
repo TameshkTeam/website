@@ -43,7 +43,13 @@ hr {
 
 a {
   color: #d444d4;
+  transition: .3s;
 }
+a:hover{
+  /* opacity: 0.8; */
+  color: #1d8ddb;
+}
+
 
 nav {
   margin-top: 20px;
@@ -77,14 +83,12 @@ nav > ul {
 
 ::-webkit-scrollbar-track {
   background: rgb(199, 199, 199);
-  border-radius: 25px;
 }
 
 ::-webkit-scrollbar-thumb {
   background: #d444d4;
   cursor: pointer;
   transition: .5s;
-  border-radius: 25px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
