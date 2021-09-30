@@ -1,24 +1,15 @@
 
-
 @font-face {
-  font-family: bg;
-  src: url("../fonts/BG/BrandonGrotesque-Regular.ttf");
+  font-family: Yekan;
+  src: url("../fonts/Yekan/Yekan.tff");
+  src: url("../fonts/Yekan/Yekan.eot");
+  src: url("../fonts/Yekan/Yekan.woff");
+  src: url("../fonts/Yekan/Yekan.woff2");
 }
-
-@font-face {
-  font-family: bg-bold;
-  src: url("../fonts/BG/BrandonGrotesque-Bold.ttf");
-}
-
-@font-face {
-  font-family: bg-light;
-  src: url("../fonts/BG/BrandonGrotesque-Light.ttf");
-}
-
 
 body {
   margin: 0;
-  font-family: bg;
+  font-family: Yekan;
   overflow-x: hidden;
   margin-bottom: 70px;
 }
@@ -43,6 +34,11 @@ hr {
 
 a {
   color: #d444d4;
+  transition: .3s;
+}
+a:hover{
+  /* opacity: 0.8; */
+  color: #1d8ddb;
 }
 
 nav {
@@ -99,12 +95,13 @@ nav > ul {
   margin-bottom: 20px;
 }
 
+
 .nav-items {
   color: black;
   margin-right: 30px;
-  font-size: 11px;
-  font-family: bg-bold;
-  /* font-weight: 900; */
+  font-size: 20px;
+  font-family: Yekan;
+  font-weight: 900;
   transition: .3s;
   letter-spacing: .3px;
 }
@@ -166,7 +163,8 @@ nav > ul {
 }
 
 .member-name {
-  font-family: bg-bold;
+  font-family: Yekan;
+  font-weight: 900;
 }
 
 .member-type {
@@ -174,18 +172,21 @@ nav > ul {
 }
 
 .member-desc {
-  font-family: bg-light;
+  font-family: Yekan;
+  /* font-weight: 1000; */
 }
 
 /* Footer */
 .footer {
-  position: fixed;
+  position: absolute;
   text-align: center;
   background-color: #2c3157;
   color: white;
   padding: 2px;
-  bottom: 0;
+  /* bottom: 0; */
   width: 100%;
+  font-family: Yekan;
+  font-weight: 1000;
 }
 
 .love {
@@ -194,10 +195,6 @@ nav > ul {
   margin-bottom: -5px;
 }
 
-.sina-yeganeh {
-  font-family: bg-bold;
-  text-decoration: underline solid #d444d4;
-}
 
 /* About */
 .tameshk-about {
