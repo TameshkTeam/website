@@ -210,8 +210,8 @@ nav > ul {
   width: 50px;
   height: 50px;
   padding: 12px;
-  left: 30px;
-  bottom: 80px;
+  left: 25px;
+  bottom: 20px;
   cursor: pointer;
   transition: 0.5s;
   outline: none;
@@ -228,7 +228,7 @@ nav > ul {
 }
 
 .github {
-  bottom: 140px;
+  bottom: 85px;
 }
 
 .github > img {
@@ -237,7 +237,7 @@ nav > ul {
 }
 
 .fa {
-  bottom: 205px;
+  bottom: 155px;
   background: linear-gradient(
     to bottom,
     rgb(25, 255, 25),
