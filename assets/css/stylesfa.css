@@ -6,12 +6,19 @@
   src: url("../fonts/Yekan/Yekan.woff");
   src: url("../fonts/Yekan/Yekan.woff2");
 }
-*{
+
+@font-face {
+  font-family: vazir;
+  src: url("../fonts/vazir/Vazir.ttf");
+}
+
+* {
   direction: rtl;
 }
+
 body {
   margin: 0;
-  font-family: Yekan;
+  font-family: vazir;
   overflow-x: hidden;
   margin-bottom: 70px;
 }
@@ -70,7 +77,7 @@ nav > ul {
 
 /* Scrollbar */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -78,6 +85,7 @@ nav > ul {
 }
 
 ::-webkit-scrollbar-thumb {
+  border-radius: 25px;
   background: #d444d4;
   cursor: pointer;
   transition: .5s;
@@ -99,9 +107,9 @@ nav > ul {
 .nav-items {
   color: black;
   margin-right: 30px;
-  font-size: 20px;
-  font-family: Yekan;
-  font-weight: 900;
+  font-size: 15px;
+  font-family: vazir;
+  font-weight: 600;
   transition: .3s;
   letter-spacing: .3px;
 }
@@ -113,9 +121,11 @@ nav > ul {
 .dark-mode .nav-items {
   color: white;
 }
+
 .dark-mode .nav-items:hover{
   color: #bd3787;
 }
+
 .dark-mode .active {
   color: #bd3787;
 }
@@ -177,7 +187,6 @@ nav > ul {
 }
 
 .member-name {
-  font-family: Yekan;
   font-weight: 900;
 }
 
@@ -186,8 +195,7 @@ nav > ul {
 }
 
 .member-desc {
-  font-family: Yekan;
-  /* font-weight: 1000; */
+  font-weight: 100;
 }
 
 /* Footer */
