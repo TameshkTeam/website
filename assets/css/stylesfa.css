@@ -222,13 +222,7 @@ nav > ul {
 }
 
 /* Dark button */
-<<<<<<< HEAD
 .dark, .github, .en {
-||||||| 21bb1c2
-.dark, .github, .fa {
-=======
-.dark, .github, .fa, .en {
->>>>>>> 1b3b476098b3d050996c46dfa0fe4df4f02a09c2
   position: fixed;
   background-color: black;
   border-radius: 50%;
@@ -261,52 +255,15 @@ nav > ul {
   width: 25px;
   height: 25px;
 }
-
-<<<<<<< HEAD
 .en {
   bottom: 205px;
   background-image: url(../ico/english.png) !important;
-||||||| 21bb1c2
-.fa {
-  bottom: 155px;
-  background: linear-gradient(
-    to bottom,
-    rgb(25, 255, 25),
-    rgb(235, 235, 235),
-    rgb(255, 13, 13)
-  );
-=======
-.fa, .en {
-  bottom: 155px;
-  background: linear-gradient(
-    to bottom,
-    rgb(25, 255, 25),
-    rgb(235, 235, 235),
-    rgb(255, 13, 13)
-  );
->>>>>>> 1b3b476098b3d050996c46dfa0fe4df4f02a09c2
 }
 
 .en > img {
   width: 25px;
   height:25px;
 }
-
-.en {
-  padding: 10px;
-  background: linear-gradient(
-    to bottom right,
-    rgb(255, 21, 21),
-    rgb(28, 28, 255),
-    rgb(211, 211, 211)
-  );
-}
-
-.en > img {
-  width: 30px;
-  height: 30px;
-}
-
 /* Responesiv code */
 @media screen and (max-width: 1024px) {
    .members {
