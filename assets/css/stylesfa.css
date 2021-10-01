@@ -195,8 +195,7 @@ nav > ul {
   position: absolute;
   text-align: center;
   background-color: #2c3157;
-  color: white;
-  padding: 2px;
+  color: white;  padding: 2px;
   width: 100%;
   font-family: Yekan;
   font-weight: 1000;
@@ -215,7 +214,7 @@ nav > ul {
 }
 
 /* Dark button */
-.dark, .github, .fa {
+.dark, .github, .en {
   position: fixed;
   background-color: black;
   border-radius: 50%;
@@ -223,15 +222,15 @@ nav > ul {
   width: 50px;
   height: 50px;
   padding: 12px;
-  left: 25px;
-  bottom: 20px;
+  left: 30px;
+  bottom: 80px;
   cursor: pointer;
   transition: 0.5s;
   outline: none;
   box-shadow: gray 1px 2px 10px;
 }
 
-.dark:hover, .github:hover, .fa:hover {
+.dark:hover, .github:hover, .en:hover {
   opacity: 0.8;
 }
 
@@ -241,7 +240,7 @@ nav > ul {
 }
 
 .github {
-  bottom: 85px;
+  bottom: 140px;
 }
 
 .github > img {
@@ -249,19 +248,14 @@ nav > ul {
   height: 25px;
 }
 
-.fa {
-  bottom: 155px;
-  background: linear-gradient(
-    to bottom,
-    rgb(25, 255, 25),
-    rgb(235, 235, 235),
-    rgb(255, 13, 13)
-  );
+.en {
+  bottom: 205px;
+  background-image: url(../ico/english.png) !important;
 }
 
-.fa > img {
+.en > img {
   width: 25px;
-  height: 25px;
+  height:25px;
 }
 
 /* Responesiv code */
@@ -272,7 +266,7 @@ nav > ul {
    }
    .card {
      width: 100%;
-     margin: 15px 0px 0px 0px;
+     margin: 15px 20px 0px 0px;
    }
 }
 
