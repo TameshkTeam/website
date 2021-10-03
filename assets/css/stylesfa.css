@@ -247,15 +247,44 @@ nav > ul {
   width: 25px;
   height: 25px;
 }
+
+/*
+  * Amir, you set 2 icon in button 
+  * with img tag in html code and
+  * background image in css
+  * I deleted one of them
+*/
 .en {
   bottom: 205px;
-  background-image: url(../ico/english.png) !important;
+  /* background-image: url(../ico/english.png) !important; */
+  /*
+    * I suggest to you to chage background
+    * color with linear gradient
+    * It going to be like England flag:
+  */
+  background: linear-gradient(
+    to right top,
+    rgb(255, 17, 17),
+    rgb(31, 31, 255),
+    white
+  );
+}
+
+/*
+  * Should change icon size in button
+  * to this size => 25x25
+  * And it will set in center of btn
+*/
+.en > img {
+  width: 25px;
+  height: 25px;
 }
 
 .en > img {
   width: 25px;
   height:25px;
 }
+
 /* Responesiv code */
 @media screen and (max-width: 1024px) {
    .members {
@@ -267,14 +296,3 @@ nav > ul {
      margin: 15px 20px 0px 0px;
    }
 }
-
-/* @media screen and (max-width: 900px) and (min-width: 850px) {
-  .members {
-    width: 90%;
-  } 
-} */
-
-/* Small laptop */
-/* @media screen and (max-width: 1024px) and (min-width: 900px) {
-  
-} */
