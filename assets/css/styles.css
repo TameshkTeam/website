@@ -77,8 +77,9 @@ nav > ul {
 }
 
 /* Scrollbar */
+/* Scrollbar */
 ::-webkit-scrollbar {
-  width: 15px;
+  width: 7px;
 }
 
 ::-webkit-scrollbar-track {
@@ -86,6 +87,7 @@ nav > ul {
 }
 
 ::-webkit-scrollbar-thumb {
+  border-radius: 25px;
   background: #d444d4;
   cursor: pointer;
   transition: .5s;
