@@ -1,20 +1,12 @@
 
 @font-face {
-  font-family: Yekan;
-  src: url("../fonts/Yekan/Yekan.tff");
-  src: url("../fonts/Yekan/Yekan.eot");
-  src: url("../fonts/Yekan/Yekan.woff");
-  src: url("../fonts/Yekan/Yekan.woff2");
-}
-
-@font-face {
   font-family: vazir;
   src: url("../fonts/vazir/Vazir.ttf");
 }
 
-* {
+/** {
   direction: rtl;
-}
+}*/
 
 body {
   margin: 0;
