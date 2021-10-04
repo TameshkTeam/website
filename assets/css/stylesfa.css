@@ -48,6 +48,12 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /* 
+   * This direction should be in
+   * Persian version but it change
+   * our style
+  */
+  /* direction: rtl; */
 }
 
 nav > ul {
@@ -93,6 +99,7 @@ nav > ul {
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
+  direction: rtl;
 }
 
 
@@ -197,7 +204,7 @@ nav > ul {
   background-color: #2c3157;
   color: white;  padding: 2px;
   width: 100%;
-  font-family: Yekan;
+  font-family: vazir;
   font-weight: 1000;
 }
 
@@ -249,18 +256,18 @@ nav > ul {
 }
 
 /*
-  * Amir, you set 2 icon in button 
-  * with img tag in html code and
-  * background image in css
-  * I deleted one of them
+ * Amir, you set 2 icon in button 
+ * with img tag in html code and
+ * background image in css
+ * I deleted one of them
 */
 .en {
   bottom: 205px;
   /* background-image: url(../ico/english.png) !important; */
   /*
-    * I suggest to you to chage background
-    * color with linear gradient
-    * It going to be like England flag:
+   * I suggest to you to chage background
+   * color with linear gradient
+   * It going to be like England flag:
   */
   background: linear-gradient(
     to right top,
@@ -271,9 +278,9 @@ nav > ul {
 }
 
 /*
-  * Should change icon size in button
-  * to this size => 25x25
-  * And it will set in center of btn
+ * Should change icon size in button
+ * to this size => 25x25
+ * And it will set in center of btn
 */
 .en > img {
   width: 25px;
@@ -293,6 +300,7 @@ nav > ul {
    }
    .card {
      width: 100%;
-     margin: 15px 20px 0px 0px;
+     margin: 10px;
+     width: 100%;
    }
 }
