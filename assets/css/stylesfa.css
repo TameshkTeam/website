@@ -7,7 +7,6 @@
 /** {
   direction: rtl;
 }*/
-
 body {
   margin: 0;
   font-family: vazir;
@@ -197,7 +196,7 @@ nav > ul {
   background-color: #2c3157;
   color: white;  padding: 2px;
   width: 100%;
-  font-family: Yekan;
+  font-family: Vazir;
   font-weight: 1000;
 }
 
