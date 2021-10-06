@@ -1,16 +1,15 @@
 
 @font-face {
-  font-family: vazir;
+  font-family: Vazir;
   src: url("../fonts/vazir/Vazir.ttf");
 }
 
 /** {
   direction: rtl;
 }*/
-
 body {
   margin: 0;
-  font-family: vazir;
+  font-family: Vazir;
   overflow-x: hidden;
   margin-bottom: 70px;
 }
@@ -100,7 +99,7 @@ nav > ul {
   color: black;
   margin-right: 30px;
   font-size: 15px;
-  font-family: vazir;
+  font-family: Vazir;
   font-weight: 600;
   transition: .3s;
   letter-spacing: .3px;
@@ -197,7 +196,7 @@ nav > ul {
   background-color: #2c3157;
   color: white;  padding: 2px;
   width: 100%;
-  font-family: Yekan;
+  font-family: Vazir;
   font-weight: 1000;
 }
 
